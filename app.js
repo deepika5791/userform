@@ -39,6 +39,7 @@ app.use(
     allowedHeaders: ["Content-Type"],
   })
 );
+app.options("*", cors());
 
 // JSON parser
 app.use(express.json());
