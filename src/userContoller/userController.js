@@ -1,5 +1,5 @@
 const newUser = (req, res) => {
   console.log(req.body);
-  res.send("form has been submitted");
+  res.send({ message: "form has been submitted" });
 };
 module.exports = { newUser };
