@@ -4,7 +4,7 @@ const cors = require("cors");
 const routes = require("./src/userRouter/userRouter");
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://form-jade-nu.vercel.app"],
+    origin: ["http://localhost:5173", "https://form-tawny-seven.vercel.app"],
   })
 );
 app.options("*", cors());
