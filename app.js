@@ -7,7 +7,7 @@ app.use(
     origin: ["http://localhost:5173", "https://form-tawny-seven.vercel.app"],
   })
 );
-app.options("*", cors());
+
 app.use(express.json());
 app.use("/form", routes);
 module.exports = app;
